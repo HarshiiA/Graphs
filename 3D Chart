@@ -1,0 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+chart = plt.figure()
+chart3d = chart.add_subplot(111,projection='3d')
+X,Y,Z=axes3d.get_test_data(0.08)
+chart3d.plot_wireframe(X,Y,Z,color='b',rstride=5,cstride=5)
+plt.show()
